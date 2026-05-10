@@ -22,35 +22,3 @@
     border-radius: 50%;
     border: 1px solid #444;
 }
-
-/* Testing */
-#menutd {
-    width: 300px;
-    min-width: 300px;
-}
-
-/* Music Player */ 
-#spotify-wrapper {
-    display: block;
-    width: 300px;
-    height: 152px;
-    overflow: hidden;
-    border-radius: 12px;
-}
-
-#spotify-embed {
-    width: 250px;
-    height: 152px;
-    border: none;
-    display: block;
-
-} 
-
-::-webkit-scrollbar {
-    display: none;
-}
-
-* {
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-}

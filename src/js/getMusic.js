@@ -7,14 +7,8 @@ async function getSong(lasturl) {
 
     const url = 'https://tunetunetunesahur.zxrkcr.workers.dev/';
 
-    let headers = new Headers();
-    headers.append('pragma', 'no-cache');
-    headers.append('cache-control', 'no-cache');
+    let data = await fetch(url)
 
-    let data = await fetch(url, {
-        method: 'GET',
-        headers: headers,
-    })
     .then((res) => {
         if (res.status == 429) return false;
         else return res.json();
@@ -31,7 +25,7 @@ async function getSong(lasturl) {
             artElem.src = data.image[3]['#text'] || data.image[2]['#text'];
             songBox.href = data.url;
 
-            scrolText(data.name, 15, nameElem);
+            scrollText(data.name, 15, nameElem);
             scrollText(data.artist['#text'], 15, artistElem);
 
             if (data['@attr'] && data['@attr'].nowplaying === 'true') {
@@ -74,7 +68,7 @@ async function getSong(lasturl) {
             lasturl = data.url;
         }
 
-        setTimeout(() => getSong(lasturl), 30000);
+        setTimeout(() => getSong(lasturl), 10000);
     } else {
         console.log('rate limited, retrying...');
         setTimeout(() => getSong(lasturl), 10000);
