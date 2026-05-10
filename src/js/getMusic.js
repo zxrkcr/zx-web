@@ -36,35 +36,6 @@ async function getSong(lasturl) {
                 timeElem.innerHTML = '';
             }
 
-            // Audio Player
-            let audio = document.getElementById('audio-player');
-            let audioStatus = document.getElementById('audio-status');
-
-            if (data.youtubeId) {
-                audio.style.display = 'block';
-                audio.controls = false;
-                audioStatus.innerHTML = 'loading tracks...';
-
-                try {
-                    let audioRes = await fetch(`/api/audio?id=${data.youtubeId}`);
-                    let audioData = await audioRes.json();
-
-                    if (audioData.url) {
-                        audio.src = audioData.url;
-                        audio.load();
-                        audio.addEventListener('canplay', () => {
-                            audio.controls = true;
-                            audioStatus.innerHTML = '';
-                        }, { once: true });
-                    }
-                } catch(fetchErr) {
-                    console.error('audio failed:', fetchErr);
-                }
-            } else {
-                audio.style.display = 'none';
-                audioStatus.innerHTML = '';
-            }
-
             lasturl = data.url;
         }
 

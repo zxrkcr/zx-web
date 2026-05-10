@@ -14,7 +14,7 @@ function getQuotes() {
     const quoteElem = document.getElementById('quotes');
 
     console.log('loading quotes');
-    let quote = quotes(Math.floor(Math.random() * quotes.length));
+    let quote = quotes[Math.floor(Math.random() * quotes.length)];
     console.log(quote);
     quoteElem.innerHTML = quote;
 }
