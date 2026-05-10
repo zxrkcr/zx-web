@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zxrkcr</title>
+    <link rel="icon" type="image/png" href="/src/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/src/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/src/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/src/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/src/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="/src/css/index.css"/>
+    <script src="/src/js/getMusic.js"></script>
+</head>
+
+<body align="center">
+    <header class="pfp">
+        <div class="pfp-left">
+            <img src="/src/favicon/cover-major_hommy_For_Those_Who_Smirk.png" class="pfp-pic">
+            <span class="pfp-brand"></span>
+            
+            <h2>>_Welcome to my website!!_</h2>
+        </div>
+    </header>
+    <div class="layout" width="100%" align="center">
+        <table width="900px">
+            <tbody>
+                <tr>
+                    <td id="maintd">
+                        <div class="marquee box" style="padding-bottom: 5px">
+                            <p>
+                                <marquee id="quotes">
+                                    hi, im blessed
+                                </marquee>
+                            </p>
+                        </div>
+                        <div class="main box">
+                            <h1>zxrkcr</h1>
+                            <br>
+                            <p>Hi! this is my little personal project. I saw a ton of people have their own and
+                                after seeing cool neocities I decided to make something of my own
+                            </p>
+                            <ul>
+                                <li>
+                                    I'm a Highschool IT/Cyber student
+                                </li>
+                                <li>
+                                    CTF player
+                                </li>
+                                <li>
+                                    I 
+                                    <b>REALLY REALLY</b>
+                                    enjoy listening / exploring music (pls reccommend me some ::ADD SHI HERE: )
+                                </li>
+                            </ul>
+                            <br>
+                            <p>
+                                This is still fresh and i will add more features eventually
+                            </p>
+                        </div>
+                        <div style="display: flex; flex-wrap: wrap">
+                            <div class="comment box" style="width: 100%">
+                                <h2>Visitors!</h2>
+                                
+                                <div id="c_widget" style="overflow-y: auto; height: 500px">
+                                    
+                                </div>
+                                <script src="/src/js/comment-widget.js"></script>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="menutd">
+                        <div class="box"> //THIS WILL BE FOR SUBDIR //
+                            
+                        </div>
+                        <div class="box">
+                            <h2>/Music</h2>
+                            <br>
+                            <a id="songBox" style="text-decoration: none;" target="_blank" href="#">
+                                <div>
+                                    <img id="songArt" style="border: 15px double #6C4675; width: 180px" src="" alt="album-art">
+                                    <br>
+                                    <span id="songName" style="font-weight: bold;"></span>
+                                    <br>
+                                    <span id="songArtist"></span>
+                                    <br><br>
+                                    <p id="songTime" style="margin:0;"></p> 
+                                </div>
+                            </a>
+                            <div style="margin-top: 10px">
+                                <p id="audio-status" style="font-size: 0.8em; color: gray; margin: 0;"></p> 
+                                <audio id="audio-player" style="width: 200px">
+                                    No audio for this track
+                                </audio>
+                                <br>
+                                <div id="spotify-wrapper">
+                                    <iframe id="spotify-embed" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+</body>
+</html>
