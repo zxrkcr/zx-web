@@ -35,6 +35,49 @@ async function getSong(lasturl) {
             } else {
                 timeElem.innerHTML = '';
             }
+            
+            // Music Player //
+            const audio = document.getElementById('audio-player');
+            const audioStatus = document.getElementById('audio-status');
+
+            audio.removeAttribute('src');
+            audio.controls = false;
+            audio.style.display = 'block';
+            audioStatus.innerHTML = 'loading track...';
+
+            try {
+                const artistName = data.artist['#text'];
+                const songName = data.name;
+                const audioRes = await fetch(
+                    '/api/audio?q=' + encodeURIComponent(artistName + ' ' + songName)
+                );
+                const audioData = await audioRes.json();
+
+                if (audioData.url) {
+                    audio.src = audioData.url;
+                    audio.load();
+
+                    audio.addEventListener('canplay', () => {
+                        audio.controls = true;
+                        audioStatus.innerHTML = '';
+                    }, { once: true });
+
+                    audio.addEventListener('error', () => {
+                        audio.controls = false;
+                        audio.style.display = 'none';
+                        audioStatus.innerHTML = 'track unavailable';
+                    }, { once: true });
+                } else {
+                    audio.controls = false;
+                    audio.style.display = 'none';
+                    audioStatus.innerHTML = audioData.error || 'track unavailable';
+                }
+            } catch (error) {
+                console.error('audio failed', error);
+                audio.controls = false;
+                audio.style.display = 'none';
+                audioStatus.innerHTML = 'audio failed';
+            }
 
             lasturl = data.url;
         }
