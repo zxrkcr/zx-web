@@ -49,7 +49,7 @@ async function getSong(lasturl) {
                 const artistName = data.artist['#text'];
                 const songName = data.name;
                 const audioRes = await fetch(
-                    '/api/audio?q=' + encodeURIComponent(artistName + ' ' + songName)
+                    '/nowplaying?artist=' + encodeURIComponent(artistName) + '&track=' + encodeURIComponent(songName)
                 );
                 const audioData = await audioRes.json();
 

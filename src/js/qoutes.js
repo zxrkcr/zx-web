@@ -6,7 +6,10 @@ const quotes = [
     "Accept everything just the way it is",
     "Resentment and complaint are appropiate for neither oneself nor others",
     "Do not under any circumstances, depend on a partial feeling",
-    "Whats the use of knowledge; If not to apply it?"
+    "Whats the use of knowledge; If not to apply it?",
+    "He said he love girls, but he into futa - [REDACTED]",
+    "'caught the flag like a Pokémon, void built like mewtwo' - Ken Carson",
+    "I was here- Junior :3"
 
 ];
 
