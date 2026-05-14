@@ -9,7 +9,8 @@ const quotes = [
     "Whats the use of knowledge; If not to apply it?",
     "He said he love girls, but he into futa - [REDACTED]",
     "'caught the flag like a Pokémon, void built like mewtwo' - Ken Carson",
-    "I was here- Junior :3"
+    "I was here- Junior :3",
+    "so much larp its a crime"
 
 ];
 
