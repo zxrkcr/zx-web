@@ -63,25 +63,261 @@
     overflow: visible;
 }
 
+.TuneTuneTuneSahur img {
+    width: 100%;
+    display: block;
+}
+
 .london-saviour {
     position: absolute;
+    width: 150px;
     top: 50px;
     left: 100px;
+}
+
+.pulse-construct {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+.apnea {
+    position: absolute;
     width: 150px;
-    transition: transform 0.2s ease-in-out;
 }
 
-.london-saviour img {
-    width: 100px;
-    height: auto;
-    transform: rotate (-4deg)
+.birth-of-a-new-day {
+    position: absolute;
+    width: 150px;
 }
 
-.london-saviour:hover {
-    z-index: 999;
-    transform: scale(1,1);
+.black-pleasure {
+    position: absolute;
+    width: 150px;
 }
 
-.london-saviour:hover img {
-    transform: rotate(0deg)
+.celeste {
+    position: absolute;
+    width: 150px;
 }
+
+.city-of-doves {
+    position: absolute;
+    width: 150px;
+}
+
+.crack-clouds-over-arts-kitchen {
+    position: absolute;
+    width: 150px;
+}
+
+.deathmetal {
+    position: absolute;
+    width: 150px;
+}
+
+.die-lit {
+    position: absolute;
+    width: 150px;
+}
+
+.dreamcast-summer-songs {
+    position: absolute;
+    width: 150px;
+}
+
+.early-internet {
+    position: absolute;
+    width: 150px;
+}
+
+.freewave {
+    position: absolute;
+    width: 150px;
+}
+
+.goth-luv {
+    position: absolute;
+    width: 150px;
+}
+
+.hades {
+    position: absolute;
+    width: 150px;
+}
+
+.half-blood {
+    position: absolute;
+    width: 150px;
+}
+
+.bloodluxe {
+    position: absolute;
+    width: 150px;
+}
+
+.hearts {
+    position: absolute;
+    width: 150px;
+}
+
+.hertz {
+    position: absolute;
+    width: 150px;
+}
+
+.inhuman {
+    position: absolute;
+    width: 150px;
+}
+
+.joechillworld {
+    position: absolute;
+    width: 150px;
+}
+
+.luvsic {
+    position: absolute;
+    width: 150px;
+}
+
+.pizza-and-codeine {
+    position: absolute;
+    width: 150px;
+}
+
+.ramona {
+    position: absolute;
+    width: 150px;
+}
+
+.regret-when-it-was-lost {
+    position: absolute;
+    width: 150px;
+}
+
+.sisterhood {
+    position: absolute;
+    width: 150px;
+}
+
+.stratosphere {
+    position: absolute;
+    width: 150px
+}
+
+.stunt-4-life {
+    position: absolute;
+    width: 150px;
+}
+
+.sweet-hz {
+    position: absolute;
+    width: 150px;
+}
+
+.dimmed-hue {
+    position: absolute;
+    width: 150px;
+}
+
+.tgpt {
+    position: absolute;
+    width: 150px;
+}
+
+.wiyn {
+    position: absolute;
+    width: 150px;
+}
+
+.the-sword-and-soaring {
+    position: absolute;
+    width: 150px;
+}
+
+.today-i-laid-down {
+    position: absolute;
+    width: 150px;
+}
+
+.unmusique {
+    position: absolute;
+    width: 15px;
+}
+
+.weapon-party {
+    position: absolute;
+    width: 150px;
+}
+
+.windswept-adan {
+    position: absolute;
+    width: 150px;
+}
+
+.joey-1999 {
+    position: absolute;
+    width: 150px;
+}
+
+.a-lost-paracosm {
+    position: absolute;
+    width: 150px;
+}
+
+.steez {
+    position: absolute;
+    width: 150px;
+}
+
+.mahoroboshiya {
+    position: absolute;
+    width: 150px;
+}
+
+.noisehigh {
+    position: absolute;
+    width: 150px;
+}
+
+.on-the-love-beach {
+    position: absolute;
+    width: 150px;
+}
+
+.reverie {
+    position: absolute;
+    width: 150px;
+}
+
+.small-circle {
+    position: absolute;
+    width: 150px;
+}
+
+.the-peak {
+    position: absolute;
+    width: 150px;
+}
+
+.the-perfect-child {
+    position: absolute;
+    width: 150px;
+}
+
+.therapy {
+    position: absolute;
+    width: 150px;
+}
+
+.garry {
+    position: absolute;
+    width: 150px;
+}
+
+.what-the-feng {
+    position: absolute;
+    width: 150px;
+}
+
