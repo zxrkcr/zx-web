@@ -53,6 +53,17 @@
     border-radius: 60%;
 }
 
+.gif {
+    width: 610px;
+    overflow: visible;
+}
+
+.info-gif {
+    width: 650px;
+    height: 150px;
+    margin-top: -10px;
+    margin-left: -275px;
+}
 
 /* Music Collage 🐳 */
 .TuneTuneTuneSahur {
@@ -70,175 +81,184 @@
 
 .london-saviour {
     position: absolute;
-    width: 150px;
-    top: 50px;
-    left: 100px;
+    width: 135px;
+    top: 200px;
+    left: 290px;
 }
 
 .pulse-construct {
     position: absolute;
-    top: 300px;
-    left: 200px;
+    width: 130px;
+    top: 250px;
+    right: 250px;
 }
 
 .apnea {
     position: absolute;
-    width: 150px;
+    width: 130px;
+    top: 165px;
+    right: 350px
 }
 
 .birth-of-a-new-day {
     position: absolute;
-    width: 150px;
+    width: 125px;
+    top: 175px;
+    left: 210px;
 }
 
 .black-pleasure {
     position: absolute;
-    width: 150px;
+    width: 125px;
+    top: 185px;
+    right: 135px;
 }
 
 .celeste {
     position: absolute;
-    width: 150px;
+    width: 155px;
+    top: 305pc;
+    right: 55px;
 }
 
 .city-of-doves {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .crack-clouds-over-arts-kitchen {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .deathmetal {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .die-lit {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .dreamcast-summer-songs {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .early-internet {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .freewave {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .goth-luv {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .hades {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .half-blood {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .bloodluxe {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .hearts {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .hertz {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .inhuman {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .joechillworld {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .luvsic {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .pizza-and-codeine {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .ramona {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .regret-when-it-was-lost {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .sisterhood {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .stratosphere {
     position: absolute;
-    width: 150px
+    width: 125px
 }
 
 .stunt-4-life {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .sweet-hz {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .dimmed-hue {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .tgpt {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .wiyn {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .the-sword-and-soaring {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .today-i-laid-down {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .unmusique {
@@ -248,76 +268,76 @@
 
 .weapon-party {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .windswept-adan {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .joey-1999 {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .a-lost-paracosm {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .steez {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .mahoroboshiya {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .noisehigh {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .on-the-love-beach {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .reverie {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .small-circle {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .the-peak {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .the-perfect-child {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .therapy {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .garry {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
 .what-the-feng {
     position: absolute;
-    width: 150px;
+    width: 125px;
 }
 
