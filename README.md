@@ -20,9 +20,7 @@ storing some images used to plug my socials and favicon
 
 `src/js`
 holds all the files for most of the interactive portions of the website. 
-- rotating qutes
-- commenting
-- music fetching
+
 `src/js/getMusic.js`
 fetches data from my cloudflare worker which fetches data from my lastfm using my API key, built using [lastfm-cf-worker](https://github.com/monoxideboi/lastfm-cf-worker/)
 `src/js/glow.js`
