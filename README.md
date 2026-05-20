@@ -9,17 +9,31 @@ I want a personal space that I can share with friends, experiment with, and pote
 - The main features currently at the time of writing are a commenting widget which is held on a google form.
 - /music -- displays tracks connected to my lasfm account and allows users to listen in.
 - linked my socials for visitors to follow
-- the site is hosted on a Raspberri Pi (originally was going to self host my songs but i got too many)
+- the site is hosted on a Raspberry Pi (originally was going to self host my songs but i got too many)
 
 ## Directory layout
 `src/css`
-simply just where all the styles / looks of the site comes to fruition
+simply where all the styles / looks of the site comes to fruition
+
+- `src/css/index.css`
+adds a navigation bar to the top of the page as well as positionings for social media links
+
+- `src/css/music.css`
+Handles the music collage section. 
+
+manually scattered images and positioned it using px with inspect element and using live preview plugin. learned how positioning, image sizing, boxes, hover effects, and transitions work.
+
+-`src/css/comment-widget-dark.css`
+This file controls the look of the commenting section, box sizing, and color scheme
 
 `src/favicon`
 storing some images used to plug my socials and favicon
 
 `src/js`
 holds all the files for most of the interactive portions of the website. 
+
+- `src/js/comment-widget.js`
+This file loads and controls the commenting portion of the site. The comments are connected to a google form, so the script is responsible for making that system usable, built using [commenting-widget](https://virtualobserver.moe/ayano/comment-widget)
 
 - `src/js/getMusic.js`
 fetches data from my cloudflare worker which fetches data from my lastfm using my API key, built using [lastfm-cf-worker](https://github.com/monoxideboi/lastfm-cf-worker/)
