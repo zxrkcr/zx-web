@@ -21,11 +21,13 @@ storing some images used to plug my socials and favicon
 `src/js`
 holds all the files for most of the interactive portions of the website. 
 
-`src/js/getMusic.js`
+- `src/js/getMusic.js`
 fetches data from my cloudflare worker which fetches data from my lastfm using my API key, built using [lastfm-cf-worker](https://github.com/monoxideboi/lastfm-cf-worker/)
-`src/js/glow.js`
+
+- `src/js/glow.js`
 This file uses Color Thief library to grab colors from the album images and apply them to the CSS. The goal is to make it pop on hover and have a nice snake trail border glow effect based on the cover art.
-`src/js/quotes.js`
+
+- `src/js/quotes.js`
 stores and shows rotating quotes on random into a marquee
 
 `src/TuneTuneTuneSahur`
