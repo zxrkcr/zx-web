@@ -20,14 +20,18 @@ adds a navigation bar to the top of the page as well as positionings for social 
 
 - `src/css/music.css`
 Handles the music collage section. 
-
 manually scattered images and positioned it using px with inspect element and using live preview plugin. learned how positioning, image sizing, boxes, hover effects, and transitions work.
 
 -`src/css/comment-widget-dark.css`
 This file controls the look of the commenting section, box sizing, and color scheme
 
+
+
 `src/favicon`
 storing some images used to plug my socials and favicon
+
+
+
 
 `src/js`
 holds all the files for most of the interactive portions of the website. 
@@ -43,6 +47,9 @@ This file uses Color Thief library to grab colors from the album images and appl
 
 - `src/js/quotes.js`
 stores and shows rotating quotes on random into a marquee
+
+
+
 
 `src/TuneTuneTuneSahur`
 just a pool of images for my favourite music which is used to redirect to spotify

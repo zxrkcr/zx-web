@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll('TuneTuneTuneSahur a').forEach(link => {
+    document.querySelectorAll('.TuneTuneTuneSahur a').forEach(link => {
         const img = link.querySelector('img');
         if (!img) return;
 
         const applyColors = () => {
             try {
-                const palette = colorThief.getPaletteSync(img, { colorcount: 2 });
+                const palette = ColorThief.getPaletteSync(img, { colorCount: 3 });
                 if (!palette) return;
 
                 link.style.setProperty('--c1', palette[0].css());

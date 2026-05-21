@@ -8,10 +8,46 @@
     overflow: visible;
 }
 
+@keyframes border { 100% { --angle: 360deg; } }
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.TuneTuneTuneSahur a::after {
+    content: "";
+    position: absolute;
+    inset: -3px;
+    padding: 4px;
+    opacity: 0;
+
+    background: conic-gradient(
+        from var(--angle),
+        transparent 0 200deg,
+        var(--c1) 200deg,
+        var(--c2) 250deg,
+        var(--c3) 300deg,
+        transparent 360deg
+    );
+    -webkit-mask:
+        radial-gradient( black 0 0 ) content-box,
+        linear-gradient( black 0 0 );
+    
+    mask:
+        linear-gradient( black 0 0 ) content-box,
+        linear-gradient( black 0 0 );
+    mask-composite: exclude;
+
+    animation: border 2.5s linear infinite;
+}
+.TuneTuneTuneSahur a:hover::after { opacity: 1; }
 .TuneTuneTuneSahur a:hover {
+    overflow: visible;
     transition: transform 0.6s ease, filter 0.6s ease;
     transform: scale(1.1);
-    filter: drop-shadow(0px 0px 6px gray);
+    background: drop-shadow(0px 0px 8px gray);
 }
 
 .TuneTuneTuneSahur img {
