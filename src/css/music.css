@@ -33,21 +33,21 @@
     );
     -webkit-mask:
         radial-gradient( black 0 0 ) content-box,
-        linear-gradient( black 0 0 );
+        radial-gradient( black 0 0 );
     
     mask:
-        linear-gradient( black 0 0 ) content-box,
-        linear-gradient( black 0 0 );
+        radial-gradient( black 0 0 ) content-box,
+        radial-gradient( black 0 0 );
     mask-composite: exclude;
 
-    animation: border 2.5s linear infinite;
+    animation: border 2s linear infinite;
 }
 .TuneTuneTuneSahur a:hover::after { opacity: 1; }
 .TuneTuneTuneSahur a:hover {
     overflow: visible;
     transition: transform 0.6s ease, filter 0.6s ease;
     transform: scale(1.1);
-    background: drop-shadow(0px 0px 8px gray);
+    filter: drop-shadow(0 0 3px var(--c1)) drop-shadow(0 0 5px var(--c2)) drop-shadow(0 0 7px var(--c3));
 }
 
 .TuneTuneTuneSahur img {
