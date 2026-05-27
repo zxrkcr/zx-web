@@ -65,3 +65,9 @@
     margin-left: -275px;
 }
 
+.box {
+    border: 2px solid #6FB2FF;
+    /*  border-radius: 10px;*/
+    padding: 0px 15px;
+    margin: 10px;
+}

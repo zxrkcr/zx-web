@@ -1,136 +1,203 @@
 {
+  "profile": {
+    "username": "zxrkcr",
+    "avatar": "/src/data/img/avatar.jpg"
+  },
   "latest": {
-    "artist": "khel",
-    "album": "real girl rockstar",
-    "rating": "85",
-    "review": "GEEKED ZX APPROVES \ud83d\udc08\u200d\u2b1b \ud83c\udf89\ud83c\udf89\ud83d\udc33\ud83d\udc33\nfav: rockout & explode\nleast fav: neighbors\nW jam with @hydraaaaaig"
+    "artist": "glaive",
+    "album": "Y'all",
+    "rating": "95",
+    "review": "old review: nicew\n@hydraaaaaig forced me into a relisten 85/100 --> 95/100\nI wasn't locked in throughout the first listen and yea this is really tuff, really grew on me a lot and even cured my erectile dysfunction.\nOn a serious note, this is a really great project, and I WILL be bumping this very often. Sonically speaking this has exceeded every aspect of my expectations of what I imagined with 40 minutes (auditory) orgasm. 16 tracks of peak production. It feels chaotic in the best ...",
+    "cover": "/src/data/img/latest-cover.jpg",
+    "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1294447-yall/",
+    "date": "25 May 2026 19:47:00 GMT"
   },
   "reviews": [
+    {
+      "artist": "glaive",
+      "album": "Y'all",
+      "rating": "95",
+      "review": "old review: nicew\n@hydraaaaaig forced me into a relisten 85/100 --> 95/100\nI wasn't locked in throughout the first listen and yea this is really tuff, really grew on me a lot and even cured my erectile dysfunction.\nOn a serious note, this is a really great project, and I WILL be bumping this very often. Sonically speaking this has exceeded every aspect of my expectations of what I imagined with 40 minutes (auditory) orgasm. 16 tracks of peak production. It feels chaotic in the best ...",
+      "cover": "/src/data/img/latest-cover.jpg",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1294447-yall/",
+      "date": "25 May 2026 19:47:00 GMT"
+    },
     {
       "artist": "khel",
       "album": "real girl rockstar",
       "rating": "85",
-      "review": "GEEKED ZX APPROVES \ud83d\udc08\u200d\u2b1b \ud83c\udf89\ud83c\udf89\ud83d\udc33\ud83d\udc33\nfav: rockout & explode\nleast fav: neighbors\nW jam with @hydraaaaaig"
+      "review": "GEEKED ZX APPROVES \ud83d\udc08\u200d\u2b1b \ud83c\udf89\ud83c\udf89\ud83d\udc33\ud83d\udc33\nfav: rockout & explode\nleast fav: neighbors\nW jam with @hydraaaaaig",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1774246-real-girl-rockstar/",
+      "date": "23 May 2026 04:21:40 GMT"
     },
     {
       "artist": "fakemink",
       "album": "Terrified .",
       "rating": "90",
-      "review": "fakeminkfakeminkfakemink"
+      "review": "fakeminkfakeminkfakemink",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1492251-terrified-/",
+      "date": "23 May 2026 03:35:09 GMT"
     },
     {
       "artist": "kmoe",
       "album": "K1",
       "rating": "85",
-      "review": "thank you @hydraaaaaig this was a phenomenal listen for geeked zx"
+      "review": "thank you @hydraaaaaig this was a phenomenal listen for geeked zx",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/560042-k1/",
+      "date": "22 May 2026 16:46:14 GMT"
     },
     {
       "artist": "todos mueren en abril",
       "album": "todos mueren en abril",
       "rating": "85",
-      "review": "grateful i speak spanish"
+      "review": "grateful i speak spanish",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1693167-todos-mueren-en-abril/",
+      "date": "21 May 2026 21:30:59 GMT"
     },
     {
       "artist": "Vialice",
       "album": "Talk When Were Okay, Pt. 2",
       "rating": "80",
-      "review": "I frickin love AOTY \ud83d\udc33"
+      "review": "I frickin love AOTY \ud83d\udc33",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1469618-talk-when-were-okay-pt-2/",
+      "date": "21 May 2026 02:03:47 GMT"
     },
     {
       "artist": "luvfredo & kifoh",
       "album": "BOOTCAMP",
       "rating": "80",
-      "review": "oooo shi"
+      "review": "oooo shi",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1666269-bootcamp/",
+      "date": "20 May 2026 19:52:35 GMT"
     },
     {
       "artist": "Kane Grocerys",
       "album": "Trap Goth",
       "rating": "75",
-      "review": "felt repetitive but it got somewhat better midway thru"
+      "review": "felt repetitive but it got somewhat better midway thru",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/425116-trap-goth/",
+      "date": "20 May 2026 19:47:57 GMT"
     },
     {
       "artist": "C. Boogie",
       "album": "Munnie Fetish Renegade Demon",
       "rating": "65",
-      "review": ":sob:"
+      "review": ":sob:",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/220127-munnie-fetish-renegade-demon/",
+      "date": "20 May 2026 05:53:58 GMT"
     },
     {
       "artist": "KIMONO4k",
       "album": "Midnight Club",
       "rating": "70",
-      "review": "woah woah\nyuh yuh\nor something like that"
+      "review": "woah woah\nyuh yuh\nor something like that",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/819707-midnight-club/",
+      "date": "20 May 2026 05:20:03 GMT"
     },
     {
       "artist": "Eazy",
       "album": "Eazy Luxe",
       "rating": "75",
-      "review": "yo its the yit beat"
+      "review": "yo its the yit beat",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1669580-eazy-luxe/",
+      "date": "18 May 2026 21:51:12 GMT"
     },
     {
       "artist": "Drake",
       "album": "ICEMAN",
       "rating": "50",
-      "review": "I am an idf solder and really enjoyed this album"
+      "review": "I am an idf solder and really enjoyed this album",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1370239-iceman/",
+      "date": "18 May 2026 19:07:33 GMT"
     },
     {
       "artist": "Chief Keef",
       "album": "Back from the Dead",
       "rating": "80",
-      "review": "he sweet bro"
+      "review": "he sweet bro",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/9770-back-from-the-dead/",
+      "date": "18 May 2026 16:51:26 GMT"
     },
     {
       "artist": "tsubi club",
       "album": "trinket",
       "rating": "85",
-      "review": "Thank you @Cyzer for some intriguing tunes"
+      "review": "Thank you @Cyzer for some intriguing tunes",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1753363-trinket/",
+      "date": "18 May 2026 05:32:49 GMT"
     },
     {
       "artist": "\u8f15\u63cf\u6de1\u5beb [Understatement]",
       "album": "\u5c0f\u5708\u5b50 [Small Circle]",
       "rating": "90",
-      "review": "that perfect cozy rainy Minecraft night vibe"
+      "review": "that perfect cozy rainy Minecraft night vibe",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/104966--small-circle/",
+      "date": "16 May 2026 02:18:47 GMT"
     },
     {
       "artist": "spiral staircase",
       "album": "the perfect child",
       "rating": "90",
-      "review": "scary"
+      "review": "scary",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1123425-the-perfect-child/",
+      "date": "16 May 2026 01:23:48 GMT"
     },
     {
       "artist": "major hommy",
       "album": "A Lost Paracosm",
       "rating": "95",
-      "review": "just got done hearing drakes dogshit release. holy this is so majestic\nuknownnations has never disappointed"
+      "review": "just got done hearing drakes dogshit release. holy this is so majestic\nuknownnations has never disappointed",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1820840-a-lost-paracosm/",
+      "date": "15 May 2026 20:11:53 GMT"
     },
     {
       "artist": "Robin Gan",
       "album": "Real Music",
       "rating": "0",
-      "review": "Just throwing shit at the wall\nDogshit\nActually fuck this guy\nTourture of a listen"
+      "review": "Just throwing shit at the wall\nDogshit\nActually fuck this guy\nTourture of a listen",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1790622-real-music/",
+      "date": "13 May 2026 01:47:19 GMT"
     },
     {
       "artist": "Kameron Kirby",
       "album": "MAD SWAMI",
       "rating": "87",
-      "review": "!!! MAD SWAMI !!!\nthis is seriously so good. I need to catch up on his discog\nfav: PLUG & DOME"
+      "review": "!!! MAD SWAMI !!!\nthis is seriously so good. I need to catch up on his discog\nfav: PLUG & DOME",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1807377-mad-swami/",
+      "date": "06 May 2026 20:25:54 GMT"
     },
     {
       "artist": "CeeKayy & The Lover",
       "album": "Dreams",
       "rating": "75",
-      "review": "lowk not that bad. Aside from the mic and mixing, I really liked most of the production. I know the remastered better.\nfav: scrooge mcduck (best imo), cheap thrills, childhood 2.0.\ni'm very major mommy and riviere biased"
-    },
-    {
-      "artist": "shteppi",
-      "album": "are you lonely?",
-      "rating": "75",
-      "review": "wtf???"
+      "review": "lowk not that bad. Aside from the mic and mixing, I really liked most of the production. I know the remastered better.\nfav: scrooge mcduck (best imo), cheap thrills, childhood 2.0.\ni'm very major mommy and riviere biased",
+      "cover": "",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1196481-dreams/",
+      "date": "06 May 2026 03:09:28 GMT"
     }
   ],
   "stats": {
     "reviews": 57,
     "ratings": 72,
-    "followers": 9,
+    "followers": 10,
     "perfect": [
       {
         "artist": "lostrushi",
@@ -144,19 +211,6 @@
         "artist": "slayr",
         "album": "Half Blood (BloodLuxe)"
       }
-    ],
-    "distribution": [
-      3,
-      9914,
-      8927,
-      7911,
-      697,
-      591,
-      49,
-      39,
-      29,
-      19,
-      91
     ]
   }
 }
