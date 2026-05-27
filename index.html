@@ -14,7 +14,7 @@
     <script src="src/js/qoutes.js"></script>
     <script src="https://unpkg.com/colorthief@3/dist/umd/color-thief.global.js"></script>
     <script src="/src/js/glow.js"></script>
-    <script src="/src/js/aoty.js"></script>
+    
     
 </head>
 
@@ -36,7 +36,7 @@
         </div>
     </header>
     <div class="layout" width="100%" align="center">
-        <table width="900px">
+        <table width="1000px">
             <tbody>
                 <tr>
                     <td id="maintd">
@@ -74,7 +74,7 @@
                             <ul>
                                 <li><s>add last.fm</s></li>
                                 <li><s>share fav albums</s></li>
-                                <li>/AOTY widget</li>
+                                <li><s>/AOTY widget</s></li>
                                 <li>create whoami subpage</li>
                                 <li>mobile support</li>
                                 <li>ACTUALLY style the website</li>
@@ -95,16 +95,16 @@
                         <div class="box">
                             <h2>/AOTY</h2>
                             <div>
-                                <img id="aoty-pfp" style="width: 50px; height: 50px; border-radius: 60%; border: 3px solid #6FB2FF">
+                                <img id="aoty-pfp" style="width: 50px; height: 50px; border-radius: 60%; border: 2px solid gray">
                                 <div>
-                                    <a href="https://www.albumoftheyear.org/user/zxrkcr/" target="_blank" style="color:inherit; font-weight: bold;"></a>
+                                    <a href="https://www.albumoftheyear.org/user/zxrkcr/" target="_blank" style="color:inherit; font-weight: bold; font-size: 1.5em;">zxrkcr</a>
                                     <br>
                                     <small id="aoty-ratings" style="color: gray"></small>
                                 </div>
                             </div>
                             <hr>
                             <a id="aoty" target="_blank">
-                                <img id="cover" alt="album cover" style="width: 80px; border: 6px solid #6C4675">
+                                <img id="cover" alt="album cover" style="width: 150px; border: 6px solid #6C4675">
                                 <br>
                                 <span id="album" style="font-weight: bold"></span>
                                 <br>
@@ -112,8 +112,8 @@
                                 <br>
                                 <span id="score"></span>
                             </a>
-                            <br>
-                            <p id="reviews" style="margin-top: 8px"></p>
+                            <br>    
+                            <p id="reviews" style="margin-top: 8px; max-width: 250px; font-size: 0.90em; max-height: 80px; overflow-y: auto; text-align: left;"></p>
                         </div>
                         <div class="box"> //THIS WILL BE FOR SUBPAGES //
                             
@@ -211,5 +211,6 @@
 
     </div>
     <script src="/src/js/getMusic.js"></script>
+    <script src="/src/js/aoty.js"></script>
 </body>
 </html> 

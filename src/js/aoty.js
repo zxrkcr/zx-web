@@ -6,23 +6,25 @@ async function getAOTY() {
         const profile = aotyData.profile;
         const stats = aotyData.stats;
         const latestReview = aotyData.latest;
+        const albumElement = document.getElementById('album');
+        const artistElement = document.getElementById('artist');
 
-        if (profile && profile.pfp) {
+        if (profile && profile.avatar) {
             document.getElementById('aoty-pfp').src = profile.avatar;
         }
 
         if (stats) {
-            document.getElementById('aoty-stats').textContent = `${stats.reviews} reviews | ${stats.rating} rating | ${stats.folowers} followers`;
+            document.getElementById('aoty-ratings').textContent = `${stats.reviews} reviews | ${stats.ratings} ratings | ${stats.followers} followers`;
         }
         if (!latestReview) return; 
 
         document.getElementById('cover').src = latestReview.cover
         document.getElementById('aoty').href = latestReview.url || 'https://www.albumoftheyear.org/user/zxrkcr/reviews/';
-        document.getElementById('score') .textContent = latestReview.url || '';
-        document.getElementById('reviews').textDocument = latestReview.review || ''; 
+        document.getElementById('score') .textContent = latestReview.rating || '';
+        document.getElementById('reviews').textContent = latestReview.review || ''; 
 
-        albumElement.innerHTML = '';
-        artistElement.innerHTML = '';
+        albumElement.textContent = latestReview.album || '';
+        artistElement.textContent = latestReview.artist ||  '';
         } catch (error) {
             console.log('aoty failed', error); 
         }
