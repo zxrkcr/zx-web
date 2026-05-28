@@ -23,6 +23,24 @@
     border: 2px solid #444;
 }
 
+.typing {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s forwards;
+    margin-right: -11px;
+    font-family: monospace;
+}
+
+@keyframes typing { from { width: 0; }}
+@keyframes cursor {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+.cursor {
+    animation: cursor 1s step-end infinite;
+}
+
 .links {
     display: flex;
     align-items: left;
@@ -67,7 +85,8 @@
 
 .box {
     /*border: 2px solid #6FB2FF;*/
-    /*  border-radius: 10px;
+    /*  border-radius: 10px; */
     padding: 0px 15px;
-    margin: 10px; */
+    margin: 10px;
 }
+
