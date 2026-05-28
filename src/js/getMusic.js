@@ -67,10 +67,14 @@ async function getSong(lasturl) {
                         audio.style.display = 'none';
                         audioStatus.innerHTML = 'track unavailable';
                     }, { once: true });
+                } else if (audioData.error === 'non_yt') {
+                    audio.controls = false;
+                    audio.style.display = 'none';
+                    audioStatus.innerHTML || 'not on yt - Tune in on spotify';
                 } else {
                     audio.controls = false;
                     audio.style.display = 'none';
-                    audioStatus.innerHTML = audioData.error || 'track unavailable';
+                    audioStatus.innerHTML = audioData.error ||  'track unavailable';
                 }
             } catch (error) {
                 console.error('audio failed', error);
@@ -84,7 +88,6 @@ async function getSong(lasturl) {
 
         setTimeout(() => getSong(lasturl), 10000);
     } else {
-        console.log('rate limited, retrying...');
         setTimeout(() => getSong(lasturl), 10000);
     }
 }

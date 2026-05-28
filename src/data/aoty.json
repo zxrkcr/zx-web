@@ -4,21 +4,30 @@
     "avatar": "/src/data/img/avatar.jpg"
   },
   "latest": {
-    "artist": "glaive",
-    "album": "Y'all",
-    "rating": "95",
-    "review": "old review: nicew\n@hydraaaaaig forced me into a relisten 85/100 --> 95/100\nI wasn't locked in throughout the first listen and yea this is really tuff, really grew on me a lot and even cured my erectile dysfunction.\nOn a serious note, this is a really great project, and I WILL be bumping this very often. Sonically speaking this has exceeded every aspect of my expectations of what I imagined with 40 minutes (auditory) orgasm. 16 tracks of peak production. It feels chaotic in the best ...",
+    "artist": "pilotredsun",
+    "album": "Achievement",
+    "rating": "75",
+    "review": "@Cyzer this was NOT better than major hommy\n#unknownnations",
     "cover": "/src/data/img/latest-cover.jpg",
-    "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1294447-yall/",
-    "date": "25 May 2026 19:47:00 GMT"
+    "url": "https://www.albumoftheyear.org/user/zxrkcr/album/60841-achievement/",
+    "date": "27 May 2026 18:01:54 GMT"
   },
   "reviews": [
+    {
+      "artist": "pilotredsun",
+      "album": "Achievement",
+      "rating": "75",
+      "review": "@Cyzer this was NOT better than major hommy\n#unknownnations",
+      "cover": "/src/data/img/latest-cover.jpg",
+      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/60841-achievement/",
+      "date": "27 May 2026 18:01:54 GMT"
+    },
     {
       "artist": "glaive",
       "album": "Y'all",
       "rating": "95",
       "review": "old review: nicew\n@hydraaaaaig forced me into a relisten 85/100 --> 95/100\nI wasn't locked in throughout the first listen and yea this is really tuff, really grew on me a lot and even cured my erectile dysfunction.\nOn a serious note, this is a really great project, and I WILL be bumping this very often. Sonically speaking this has exceeded every aspect of my expectations of what I imagined with 40 minutes (auditory) orgasm. 16 tracks of peak production. It feels chaotic in the best ...",
-      "cover": "/src/data/img/latest-cover.jpg",
+      "cover": "",
       "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1294447-yall/",
       "date": "25 May 2026 19:47:00 GMT"
     },
@@ -183,20 +192,11 @@
       "cover": "",
       "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1807377-mad-swami/",
       "date": "06 May 2026 20:25:54 GMT"
-    },
-    {
-      "artist": "CeeKayy & The Lover",
-      "album": "Dreams",
-      "rating": "75",
-      "review": "lowk not that bad. Aside from the mic and mixing, I really liked most of the production. I know the remastered better.\nfav: scrooge mcduck (best imo), cheap thrills, childhood 2.0.\ni'm very major mommy and riviere biased",
-      "cover": "",
-      "url": "https://www.albumoftheyear.org/user/zxrkcr/album/1196481-dreams/",
-      "date": "06 May 2026 03:09:28 GMT"
     }
   ],
   "stats": {
-    "reviews": 57,
-    "ratings": 72,
+    "reviews": 58,
+    "ratings": 73,
     "followers": 10,
     "perfect": [
       {

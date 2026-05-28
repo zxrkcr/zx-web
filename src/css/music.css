@@ -426,3 +426,33 @@
     bottom: 50px;
     left: -320px;
 }
+
+.k1 {
+    position: absolute;
+    width: 160px;
+    bottom: 25px;
+    right: -235px
+}
+
+.real-girl-rockstar {
+    position: absolute;
+    width: 160px;
+    bottom: 300px;
+    left: -330px;
+    transform: rotate(-5deg);
+}
+
+.yall {
+    position: absolute;
+    width: 130px;
+    top: 145px;
+    right: -300px;
+    transform: rotate(5deg);
+}
+
+.terrified {
+    position: absolute;
+    width: 100px;
+    top: 145px;
+    right: 250px;
+}
