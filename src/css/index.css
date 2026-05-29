@@ -1,5 +1,9 @@
 /* Top section of the pagee */
 
+body {
+    margin: 0;
+}
+
 .pfp {
     display: flex;
     justify-content: space-between;
