@@ -21,7 +21,7 @@ async function getAOTY() {
         document.getElementById('cover').src = latestReview.cover
         document.getElementById('aoty').href = latestReview.url || 'https://www.albumoftheyear.org/user/zxrkcr/reviews/';
         document.getElementById('score') .textContent = latestReview.rating || '';
-        document.getElementById('reviews').textContent = latestReview.review || ''; 
+        document.getElementById('reviews').innerHTML = (latestReview.review || '').replace(/\\n|\n/g, '<br>'); 
 
         albumElement.textContent = latestReview.album || '';
         artistElement.textContent = latestReview.artist ||  '';
