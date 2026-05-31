@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="/src/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/src/favicon/favicon.svg" />
     <link rel="shortcut icon" href="/src/favicon/favicon.ico" />
@@ -9,8 +10,9 @@
     <link rel="manifest" href="/src/favicon/site.webmanifest" />
     <title>About</title>
     <link rel="stylesheet" href="/src/css/index.css">
+    <link rel="stylesheet" href="/src/css/about.css">
 </head>
-<body>
+<body> <!-- style="font-family: 'Press Start 2p';" --> 
     <header class="pfp">
         <div class="pfp-left">
             <a href="/" class="homepage">
@@ -27,15 +29,17 @@
             <a href="https://discord.com/users/973454592241188934" target="_blank"> <img src="/src/favicon/discord.png" class="dis-cord"></a>
         </div>
     </header>
-    <div style="max-width: 900px; margin: 30px auto; text-align: left;">
+    <div class="box">
         <p><a href="/">Home</a>>> About</p>
         <h1>About</h1>
-        <br><h2>#whoami</h2>
+        <h2>#whoami</h2>
         <p>Hey, i'm zxrkcr, aka schlumbis. I'm a high school student cybersecurity enthusiast. Still unsure what adjacent cybersecurity
             role / job I want. As of right a Penetration tester. I'm a frequent CTF player, focusing on Forensics, Network Traffic Analysis and Crypto
             (aswell as Binary exploitation, pwn, and misc when needed).
         </p>
-        <br><h2 style="margin-bottom: -8px;">#competitions</h2>
+    </div>
+    <div class="box">
+        <h2 style="margin-bottom: -8px;">#competitions</h2>
         <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
             <thead>
                 <tr style="border-bottom: 3px solid;">
@@ -77,9 +81,14 @@
                 </tr> 
             </tbody>
         </table>
-        <br><h2>#personal interests</h2>
-        <p>My passion for Tech as a whole has only recently grown, so outside of studying and bettering my technical skills </p>
-
+    </div>
+    <div class="box">
+        <h2>#personal interests</h2>
+        <p>On my free I try to constantly trying to better my technical skills & homelabbing. I like to go hiking occasionally & photography.
+            I like Music 🤗, Anime, and video games.
+        </p>
     </div>
 
+    </div>
+<script src="/src/js/typing.js"></script>
 </body>
