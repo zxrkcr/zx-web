@@ -5,9 +5,17 @@ body {
     background-attachment: fixed;
 }
 
+#menutd {
+    vertical-align: top;
+    font-size: 13px;
+}
+
+#maintd {
+    vertical-align: top;
+    font-size: 12px;
+}
+
 .box {
-    max-width: 900px; 
-    margin: 30px auto; 
     text-align: left;
     border: 1px solid gray;
     box-sizing: border-box;
@@ -15,12 +23,6 @@ body {
     background-attachment: fixed;
     color: white;
     font-family: 'Press Start 2P';
-    font-size: 12px;
-}
-
-.column {
-    display: flex;
-    gap: 16px;
-    align-items: left;
-    padding: 16px;
+    padding: 15px;
+    margin: 10px;
 }
