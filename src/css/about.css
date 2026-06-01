@@ -1,5 +1,26 @@
+body {
+    background-image: url('/src/img/5.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .box {
     max-width: 900px; 
     margin: 30px auto; 
     text-align: left;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom,#0e141b99,#000c);
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 12px;
+}
+
+.column {
+    display: flex;
+    gap: 16px;
+    align-items: left;
+    padding: 16px;
 }
