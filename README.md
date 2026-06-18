@@ -13,7 +13,9 @@ I want a personal space that I can share with friends, experiment with, and pote
 - /Radio -- displays tracks connected to my lasfm account and allows users to listen in.
 - linked my socials for visitors to follow
 - the site is hosted on a Raspberry Pi (originally was going to self host my songs but I got too many)
+
 ADDED:
+
 - /AOTY -- I use this unofficial [AlbumOfTheYearAPI](https://github.com/JahsiasWhite/AlbumOfTheYearAPI) using their user.py by creating a script to use it, convert to json, and then redirect to `src/data/aoty.json`. All done with a cronjob to pull data every 20 minutes and display
 - A sort of collage too show off some albums I actively listen too and like in the homepage which uses the [color-thief](https://lokeshdhakar.com/projects/color-thief/) library
 - Added 2 new endpoints about me & friends
