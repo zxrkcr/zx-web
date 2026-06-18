@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Chocho Aura';
+    src: url('/src/data/fonts/ChochoAuraDemo-Regular.woff2') format('woff2'),
+        url('/src/data/fonts/ChochoAuraDemo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-image: url('/src/img/homepagebg.webp');
+    background-size: cover;
+}
+
+.friends {
+    border: 2px solid black;
+} 
+.friends-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
