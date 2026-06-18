@@ -2,6 +2,9 @@
 Git repo for my personal website.
 I have seen many cool among friends as well as wonderful personal websites across sites like nekoweb and neocities thought it looked really cool and amazing.
 
+# AI usage disclaimer
+No copy pasted AI code. The ideas for the project was thought up by me and a lot of references across the web and primarily programmed using online resources and guides. Minimal AI usage was present when attempting to debug.
+
 ## Why! / Goals
 I want a personal space that I can share with friends, experiment with, and potentially blog post.
 
